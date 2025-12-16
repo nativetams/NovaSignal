@@ -84,9 +84,9 @@ Contract verification (source code): https://basescan.org/address/your_adress#co
 
 ## Author
 
-GitHub: https://github.com/your-handle  
-Public contact (email): your-name@proton.me  
-Public contact (X): https://x.com/your-handle  
+GitHub: https://github.com/nativetams  
+Public contact (email): native_tams_0z@icloud.com  
+Public contact (X): https://x.com/taisiaaivanova  
 
 ## License
 
@@ -104,16 +104,25 @@ OnchainKit repository:
 https://github.com/coinbase/onchainkit
 
 ## Testnet Deployment (Base Sepolia)
-A smart contract has been deployed to the Base Sepolia test network for validation and testing purposes.
+
+As part of pre-production validation, one or more contracts may be deployed to the Base Sepolia test network to confirm correct behavior and tooling compatibility.
 
 Network: Base Sepolia  
 chainId (decimal): 84532  
 Explorer: https://sepolia.basescan.org  
-Deployed contract #1 address: your_adress  
-Deployed contract #2 address: your_adress  
-Basescan deployment and verification links:  
-Contract #1 address: https://sepolia.basescan.org/address/your_adress  
-Contract #2 address: https://sepolia.basescan.org/address/your_adress  
-Contract #1 verification (source code): https://sepolia.basescan.org/your_adress/0#code  
-Contract #2 verification (source code): https://sepolia.basescan.org/your_adress/0#code  
-This deployment is used to validate Base-compatible tooling, account abstraction flows, and onchain read operations in a test environment prior to mainnet usage.
+
+Contract "storage" address:  
+0xb98e742d1724de87632001c2ea6463599ad173ee  
+
+Deployment and verification:
+- https://sepolia.basescan.org/address/0xb98e742d1724de87632001c2ea6463599ad173ee  
+- https://sepolia.basescan.org/0xb98e742d1724de87632001c2ea6463599ad173ee/0#code  
+
+Contract "arrays" address:  
+0xe63fc8a3bd2806bc67942341d4d2bb3280733558  
+
+Deployment and verification:
+- https://sepolia.basescan.org/address/0xe63fc8a3bd2806bc67942341d4d2bb3280733558  
+- https://sepolia.basescan.org/0xe63fc8a3bd2806bc67942341d4d2bb3280733558/0#code  
+
+These testnet deployments provide a controlled environment for validating Base tooling, account abstraction flows, and read-only onchain interactions prior to Base Mainnet usage.
